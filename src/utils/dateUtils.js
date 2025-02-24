@@ -28,6 +28,7 @@ export function getMonthIndex(monthName) {
 }
 
 /**
+ *
  * Converts "MonthName Year" (e.g. "March 2023") into a sortable integer, YYYYMM.
  * Example: "March 2023" -> 202303
  */

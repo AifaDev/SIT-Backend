@@ -228,28 +228,17 @@
   {
     "index": 7,
 
-    "name": "Global Connectivity Index",
-    "governmentOwner": "Not SDAIA",
-    "logo": "Huawei.png",
-    "establishment": "2014",
-    "organization": "Huawei",
-    "link": "https://www.huawei.com/minisite/gci/en/",
+    "name": "Global AI Vibrancy Tool",
+    "governmentOwner": "SDAIA",
+    "logo": "GVT.png",
+    "establishment": "2017",
+    "organization": "Stanford HAI",
+    "link": "https://aiindex.stanford.edu/vibrancy/",
     "ranks": [
       {
-        "rank": 33,
-        "date": "unknown 2020"
-      },
-      {
-        "rank": 34,
-        "date": "unknown 2019"
-      },
-      {
-        "rank": 33,
-        "date": "unknown 2018"
-      },
-      {
-        "rank": 32,
-        "date": "unknown 2017"
+        "rank": 27,
+        "total": 36,
+        "date": "November 2024"
       }
     ],
     "categories": ["DI"]
