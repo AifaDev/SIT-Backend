@@ -35,7 +35,7 @@ export function getAllIndices(req, res) {
 export function getIndexById(req, res) {
   const { id } = req.params;
   const indices = loadIndices();
-  const index = indices.find((item) => item.index === parseInt(id, 10));
+  const index = indices.find((item) => item.id === id);
 
   if (!index) {
     return res.status(404).json({ error: "Index not found" });
@@ -45,8 +45,6 @@ export function getIndexById(req, res) {
 
 export function getIndicesReleases(req, res) {
   const indices = loadIndices();
-  console.log("i'm here");
   const releases = getReleases(indices);
-  console.log(releases);
   return res.status(200).json(releases);
 }

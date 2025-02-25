@@ -35,11 +35,11 @@ export function getMonthIndex(monthName) {
 export function parseMonthYearString(dateString) {
   // Expected format: "MonthName Year"
   // e.g.: "March 2023"
-  const [monthName, yearString] = dateString.split(" ");
+  const [monthString, yearString] = dateString.split("-");
 
   const year = parseInt(yearString, 10);
-  const monthIndex = getMonthIndex(monthName); // 0-based
-  if (isNaN(year) || monthIndex < 0) {
+  const month = parseInt(monthString, 10); // 0-based
+  if (isNaN(year) || month < 0) {
     // Return 0 or throw an error if the date string is invalid
     console.warn(
       `Invalid dateString: "${dateString}". Format should be "Month Year".`
@@ -48,9 +48,8 @@ export function parseMonthYearString(dateString) {
   }
 
   // Convert monthIndex to 1-based for final calculation (1–12)
-  const month = monthIndex + 1;
 
-  return year * 100 + month; // e.g., 2023*100 + 3 = 202303
+  return [month, year]; // e.g., 2023*100 + 3 = 202303
 }
 
 /**

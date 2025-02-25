@@ -9,6 +9,7 @@ import { parseMonthYearString } from "../utils/dateUtils.js";
  *   - period is a "startMonth-endMonth" (e.g. "4-9") derived from a Q2-Q3 style range
  */
 export function calculateReleaseCycle(data) {
+  console.log(data);
   if (data.length < 2) return null; // Not enough data to determine a cycle
 
   // Extract years and calculate differences between consecutive years
@@ -67,7 +68,6 @@ export function calculateReleaseWindow(data) {
   // Calculate the next release year based on the release cycle and latest year
   const latestYear = data[data.length - 1].year;
   let nextReleaseYear;
-
   if (releaseCycle === "Annually") {
     nextReleaseYear = latestYear + 1;
   } else if (releaseCycle === "Every two years") {
@@ -75,6 +75,7 @@ export function calculateReleaseWindow(data) {
   } else if (releaseCycle === "Every three years") {
     nextReleaseYear = latestYear + 3;
   } else {
+    console.log({ latestYear });
     return "Inconsistent release cycle";
   }
 
@@ -90,30 +91,23 @@ export function getReleases(indicesData) {
     const validRanks = index.ranks.filter(
       (rank) => !rank.date.includes("unknown")
     );
-
     if (validRanks.length < 2) return; // Skip if not enough valid data
 
     // Transform each rank date => { year, month } using parseMonthYearString
     const ranksData = validRanks
       .map((rank) => {
         // parseMonthYearString("March 2025") -> 202503
-        const dateNumber = parseMonthYearString(rank.date);
-        if (!dateNumber) {
-          // means invalid or unparseable date => skip
-          return null;
-        }
-        const year = Math.floor(dateNumber / 100); // e.g. 2025
-        const month = dateNumber % 100; // e.g. 3 (March)
+        const [year, month] = parseMonthYearString(rank.date);
 
         return { year, month };
       })
       .filter(Boolean);
-
     // If all ranks were invalid, skip
     if (ranksData.length < 2) return;
 
     // Pass reversed array to your function that returns something like "2025 Q2-Q4"
     const releaseWindow = calculateReleaseWindow(ranksData.reverse());
+    console.log({ releaseWindow });
     if (!releaseWindow) {
       console.error(`Invalid releaseWindow for ${index.name}:`, releaseWindow);
       return;
@@ -129,6 +123,7 @@ export function getReleases(indicesData) {
 
     // Parse the start quarter integer
     const startQuarter = parseInt(startQStr.replace("Q", ""), 10);
+    console.log(startQuarter);
     if (isNaN(startQuarter)) {
       console.error(`Invalid startQuarter for ${index.name}:`, quarterRange);
       return;

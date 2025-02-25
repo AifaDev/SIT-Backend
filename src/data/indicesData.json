@@ -1,72 +1,77 @@
 [
   {
-    "index": 0,
+    "id": "GAII",
     "name": "Global AI Index",
     "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": true,
     "logo": "Tortois.png",
     "establishment": "2019",
     "organization": "Tortoise Media",
     "link": "https://www.tortoisemedia.com/intelligence/global-ai/",
+    "nextRelease": "2025-09",
     "ranks": [
       {
         "rank": 14,
         "total": 83,
-        "date": "September 2024"
+        "date": "2024-09"
       },
       {
         "rank": 31,
         "total": 62,
-        "date": "June 2023"
+        "date": "2023-06"
       },
       {
         "rank": 26,
         "total": 62,
-        "date": "December 2021"
+        "date": "2021-12"
       },
       {
         "rank": 22,
         "total": 62,
-        "date": "December 2020"
+        "date": "2020-12"
       }
     ],
     "categories": ["AI"]
   },
   {
-    "index": 1,
+    "id": "EGDI",
     "link": "https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index",
     "organization": "United Nations",
     "establishment": "2003",
     "name": "E-Government Development Index",
+    "nextRelease": "2026-09",
     "governmentOwner": "Not SDAIA",
+    "isOwnedBySdaia": false,
     "logo": "UN.png",
     "ranks": [
       {
         "rank": 6,
         "total": 193,
-        "date": "September 2024"
+        "date": "2024-09"
       },
       {
         "rank": 31,
         "total": 193,
-        "date": "September 2022"
+        "date": "2022-09"
       },
       {
         "rank": 43,
         "total": 193,
-        "date": "July 2020"
+        "date": "2020-07"
       },
       {
         "rank": 52,
         "total": 193,
-        "date": "July 2018"
+        "date": "2018-07"
       }
     ],
     "categories": ["DI"]
   },
   {
-    "index": 2,
+    "id": "ISCI",
     "governmentOwner": "SDAIA",
-    "name": "Smart City Index",
+    "isOwnedBySdaia": true,
+    "name": "IMD Smart City Index",
     "organization": "IMD",
     "establishment": "2019",
     "link": "https://www.imd.org/smart-city-observatory/home/",
@@ -75,35 +80,36 @@
       {
         "rank": 25,
         "total": 142,
-        "date": "April 2024"
+        "date": "2024-04"
       },
       {
         "rank": 30,
         "total": 142,
-        "date": "April 2023"
+        "date": "2023-04"
       },
       {
         "rank": 39,
         "total": 118,
-        "date": "October 2021"
+        "date": "2021-10"
       },
       {
         "rank": 44,
         "total": 109,
-        "date": "September 2020"
+        "date": "2020-09"
       },
       {
         "rank": 55,
         "total": 102,
-        "date": "October 2019"
+        "date": "2019-10"
       }
     ],
     "categories": ["SC"]
   },
   {
-    "index": 3,
-    "name": "AI Preparedness Index",
+    "id": "IAPI",
+    "name": "IMF AI Preparedness Index",
     "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": true,
     "organization": "IMF",
     "establishment": "2024",
     "link": "https://www.imf.org/external/datamapper/datasets/AIPI",
@@ -112,17 +118,16 @@
       {
         "rank": 45,
         "total": 174,
-        "date": "July 2024"
+        "date": "2024-07"
       }
     ],
     "categories": ["AI", "DI"]
   },
   {
-    "index": 4,
-
+    "id": "GIRA",
     "name": "The Global Index on Responsible AI",
     "governmentOwner": "SDAIA",
-
+    "isOwnedBySdaia": true,
     "organization": "Global Center on AI Governance",
     "establishment": "2024",
     "link": "https://www.global-index.ai/",
@@ -131,17 +136,16 @@
       {
         "rank": 40,
         "total": 138,
-        "date": "June 2024"
+        "date": "2024-06"
       }
     ],
     "categories": ["AI"]
   },
   {
-    "index": 5,
-
+    "id": "WDCR",
     "name": "World Digital Competitiveness Ranking",
     "governmentOwner": "Not SDAIA",
-
+    "isOwnedBySdaia": false,
     "organization": "IMD",
     "logo": "IMD.png",
     "link": "https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-digital-competitiveness-ranking/",
@@ -150,137 +154,100 @@
       {
         "rank": 30,
         "total": 64,
-        "date": "December 2023"
+        "date": "2023-12"
       },
       {
         "rank": 35,
-        "date": "March 2022"
+        "total": null,
+        "date": "2022-03"
       },
       {
         "rank": 36,
-        "date": "March 2021"
+        "total": null,
+        "date": "2021-03"
       },
       {
         "rank": 34,
-        "date": "October 2020"
+        "total": null,
+        "date": "2020-10"
       },
       {
         "rank": 39,
-        "date": "August 2019"
+        "total": null,
+        "date": "2019-08"
       },
       {
         "rank": 42,
-        "date": "October 2018"
+        "total": null,
+        "date": "2018-10"
       },
       {
         "rank": 36,
-        "date": "January 2017"
+        "total": null,
+        "date": "2017-01"
       }
     ],
     "categories": ["DI"]
   },
   {
-    "index": 6,
-
+    "id": "GARI",
     "name": "Government AI Readiness Index",
     "governmentOwner": "SDAIA",
-
+    "isOwnedBySdaia": true,
     "logo": "OxfordInsights.png",
     "establishment": "2017",
     "organization": "Oxford Insights",
+    "nextRelease": "2025-12",
     "link": "https://oxfordinsights.com/ai-readiness/ai-readiness-index/",
     "ranks": [
       {
         "rank": 22,
         "total": 188,
-        "date": "December 2024"
+        "date": "2024-12"
       },
       {
         "rank": 29,
         "total": 193,
-        "date": "December 2023"
+        "date": "2023-12"
       },
       {
         "rank": 39,
         "total": 181,
-
-        "date": "December 2022"
+        "date": "2022-12"
       },
       {
         "rank": 34,
         "total": 160,
-        "date": "December 2021"
+        "date": "2021-12"
       },
       {
         "rank": 38,
         "total": 172,
-        "date": "December 2020"
+        "date": "2020-12"
       },
       {
         "rank": 78,
         "total": 194,
-        "date": "December 2019"
+        "date": "2019-12"
       }
     ],
     "categories": ["AI"]
   },
-
   {
-    "index": 7,
-
-    "name": "Global AI Vibrancy Tool",
+    "id": "SGVT",
+    "name": "Stanford Global AI Vibrancy Tool",
     "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": true,
     "logo": "GVT.png",
     "establishment": "2017",
     "organization": "Stanford HAI",
+    "nextRelease": "2025-04",
     "link": "https://aiindex.stanford.edu/vibrancy/",
     "ranks": [
       {
         "rank": 27,
         "total": 36,
-        "date": "November 2024"
-      }
-    ],
-    "categories": ["DI"]
-  },
-
-  {
-    "index": 8,
-    "governmentOwner": "Not SDAIA",
-
-    "establishment": "2007",
-    "organization": "WIPO",
-    "link": "https://oxfordinsights.com/ai-readiness/ai-readiness-index/",
-    "name": "Global Innovation Index",
-    "logo": "WIPO.png",
-    "ranks": [
-      {
-        "rank": 48,
-        "date": "unknown 2023"
-      },
-      {
-        "rank": 51,
-        "date": "unknown 2022"
-      },
-      {
-        "rank": 66,
-        "date": "unknown 2021"
-      },
-      {
-        "rank": 66,
-        "date": "unknown 2020"
-      },
-      {
-        "rank": 68,
-        "date": "unknown 2019"
-      },
-      {
-        "rank": 61,
-        "date": "unknown 2018"
-      },
-      {
-        "rank": 55,
-        "date": "unknown 2017"
+        "date": "2024-11"
       }
     ],
     "categories": ["DI"]

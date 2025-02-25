@@ -6,13 +6,21 @@ import { parseMonthYearString } from "../utils/dateUtils.js";
  */
 export function sortIndicesByLatestRankDate(data) {
   // Create a deep copy (to avoid mutating the original array)
-  const copiedData = data.map((item) => ({
-    ...item,
-    // Convert the first rank's date into a sortable integer
-    sortableDate: parseMonthYearString(item.ranks[0].date),
-  }));
+  const copiedData = data.map((item) => {
+    // parseMonthYearString now returns [year, month]
+    const [year, month] = parseMonthYearString(item.ranks[0].date) || [0, 0];
 
-  // Sort descending by the sortableDate
+    // Convert year/month to a sortable integer.
+    // Example: 2024 year & 11 month => 202411
+    const sortableDate = year * 100 + month;
+
+    return {
+      ...item,
+      sortableDate,
+    };
+  });
+
+  // Sort descending by the sortableDate (larger = more recent)
   copiedData.sort((a, b) => b.sortableDate - a.sortableDate);
 
   // Clean up the temporary 'sortableDate' property before returning
