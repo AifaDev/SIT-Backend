@@ -86,50 +86,68 @@ export function getReleases(indicesData) {
   const names = [];
   const periods = [];
 
+  const currentYear = new Date().getFullYear();
+
   indicesData.forEach((index) => {
+    // 1) If nextRelease is defined, use it and skip rank logic
+    if (index.nextRelease) {
+      // e.g. "2025-09"
+      const [year, month] = parseMonthYearString(index.nextRelease);
+      if (!year || !month) {
+        // If parsing failed, skip
+        return;
+      }
+      // Only proceed if year === currentYear
+      if (year !== currentYear) {
+        return;
+      }
+
+      // Convert the month into a quarter, then quarter -> month range
+      const quarter = Math.ceil(month / 3); // 9 => Q3
+      const startMonth = (quarter - 1) * 3 + 1; // Q3 => 7
+      const endMonth = quarter * 3; // Q3 => 9
+
+      names.push(index.name);
+      periods.push(`${startMonth}-${endMonth}`);
+      return; // Done with this index
+    }
+
+    // 2) Fallback: use the existing rank-based approach
     // Filter out "unknown" ranks
     const validRanks = index.ranks.filter(
       (rank) => !rank.date.includes("unknown")
     );
     if (validRanks.length < 2) return; // Skip if not enough valid data
 
-    // Transform each rank date => { year, month } using parseMonthYearString
+    // Transform each rank date => { year, month }
     const ranksData = validRanks
       .map((rank) => {
-        // parseMonthYearString("March 2025") -> 202503
         const [year, month] = parseMonthYearString(rank.date);
-
-        return { year, month };
+        return year && month ? { year, month } : null;
       })
       .filter(Boolean);
+
     // If all ranks were invalid, skip
     if (ranksData.length < 2) return;
 
-    // Pass reversed array to your function that returns something like "2025 Q2-Q4"
+    // Reverse and calculate next release window
     const releaseWindow = calculateReleaseWindow(ranksData.reverse());
-    console.log({ releaseWindow });
-    if (!releaseWindow) {
-      console.error(`Invalid releaseWindow for ${index.name}:`, releaseWindow);
-      return;
-    }
+    if (!releaseWindow) return; // e.g. "Inconsistent release cycle" or null
 
-    // releaseWindow should look like "2025 Q2-Q4"
-    const [year, quarterRange] = releaseWindow.split(" ");
-    if (!quarterRange) return; // no quarter found
+    // releaseWindow looks like "2025 Q2-Q4" or "2025 Q3"
+    const [yearStr, quarterRange] = releaseWindow.split(" ");
+    if (!yearStr || !quarterRange) return;
 
-    // quarterRange might be "Q2-Q4", "Q3", etc.
+    const releaseYear = parseInt(yearStr, 10);
+    // If the release year isn't this year, skip
+    if (releaseYear !== currentYear) return;
+
+    // quarterRange might be "Q2" or "Q2-Q4"
     const [startQStr, endQStr] = quarterRange.split("-");
-    // e.g., startQStr = "Q2", endQStr = "Q4"
-
-    // Parse the start quarter integer
+    if (!startQStr) return;
     const startQuarter = parseInt(startQStr.replace("Q", ""), 10);
-    console.log(startQuarter);
-    if (isNaN(startQuarter)) {
-      console.error(`Invalid startQuarter for ${index.name}:`, quarterRange);
-      return;
-    }
+    if (isNaN(startQuarter)) return;
 
-    // Parse or default endQuarter
     let endQuarter = startQuarter;
     if (endQStr) {
       const parsedEndQ = parseInt(endQStr.replace("Q", ""), 10);
@@ -139,7 +157,6 @@ export function getReleases(indicesData) {
     }
 
     // Convert quarter -> month range
-    // Q1 => months 1–3, Q2 => months 4–6, etc.
     const startMonth = (startQuarter - 1) * 3 + 1; // Q2 => 4
     const endMonth = endQuarter * 3; // Q4 => 12
 
