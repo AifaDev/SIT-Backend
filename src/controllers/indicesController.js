@@ -1,7 +1,10 @@
 // src/controllers/indicesController.js
 
 import { loadIndices } from "../models/indicesModel.js";
-import { getReleases } from "../services/chartService.js";
+import {
+  getReleases,
+  groupIndicesByCountry,
+} from "../services/chartService.js";
 import { sortIndicesByLatestRankDate } from "../services/sortService.js";
 
 export function getAllIndices(req, res) {
@@ -47,4 +50,10 @@ export function getIndicesReleases(req, res) {
   const indices = loadIndices();
   const releases = getReleases(indices);
   return res.status(200).json(releases);
+}
+
+export function getIndicesCountries(req, res) {
+  const indices = loadIndices();
+  const grouped = groupIndicesByCountry(indices);
+  return res.status(200).json(grouped);
 }

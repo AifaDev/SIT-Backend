@@ -82,6 +82,17 @@ export function calculateReleaseWindow(data) {
   // Return the expected release window
   return `${nextReleaseYear} ${quarterRange}`;
 }
+
+export function groupIndicesByCountry(indices) {
+  return indices.reduce((acc, index) => {
+    if (!acc[index.countryCode]) {
+      acc[index.countryCode] = [];
+    }
+    acc[index.countryCode].push(index);
+    return acc;
+  }, {});
+}
+
 export function getReleases(indicesData) {
   const names = [];
   const periods = [];

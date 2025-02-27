@@ -1,6 +1,8 @@
 [
   {
     "id": "GAII",
+    "countryCode": "US",
+    "countryName": "United States",
     "name": "Global AI Index",
     "governmentOwner": "SDAIA",
     "isOwnedBySdaia": true,
@@ -35,6 +37,8 @@
   },
   {
     "id": "EGDI",
+    "countryCode": "US",
+    "countryName": "United States",
     "link": "https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index",
     "organization": "United Nations",
     "establishment": "2003",
@@ -72,6 +76,8 @@
     "governmentOwner": "SDAIA",
     "isOwnedBySdaia": true,
     "name": "IMD Smart City Index",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
     "organization": "IMD",
     "establishment": "2019",
     "link": "https://www.imd.org/smart-city-observatory/home/",
@@ -108,6 +114,8 @@
   {
     "id": "IAPI",
     "name": "IMF AI Preparedness Index",
+    "countryCode": "US",
+    "countryName": "United States",
     "governmentOwner": "SDAIA",
     "isOwnedBySdaia": true,
     "organization": "IMF",
@@ -126,6 +134,8 @@
   {
     "id": "GIRA",
     "name": "The Global Index on Responsible AI",
+    "countryCode": "ZA",
+    "countryName": "South Africa",
     "governmentOwner": "SDAIA",
     "isOwnedBySdaia": true,
     "organization": "Global Center on AI Governance",
@@ -144,6 +154,8 @@
   {
     "id": "WDCR",
     "name": "World Digital Competitiveness Ranking",
+    "countryCode": "CH",
+    "countryName": "Switzerland",
     "governmentOwner": "Not SDAIA",
     "isOwnedBySdaia": false,
     "organization": "IMD",
@@ -192,6 +204,8 @@
   {
     "id": "GARI",
     "name": "Government AI Readiness Index",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
     "governmentOwner": "SDAIA",
     "isOwnedBySdaia": true,
     "logo": "OxfordInsights.png",
@@ -236,6 +250,8 @@
   {
     "id": "SGVT",
     "name": "Stanford Global AI Vibrancy Tool",
+    "countryCode": "US",
+    "countryName": "United States",
     "governmentOwner": "SDAIA",
     "isOwnedBySdaia": true,
     "logo": "GVT.png",
