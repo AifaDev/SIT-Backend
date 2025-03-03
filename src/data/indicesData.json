@@ -1,5 +1,43 @@
 [
   {
+    "id": "GIAIS",
+    "countryCode": "CN",
+    "countryName": "China",
+    "name": "Agile Global Index for AI Safety",
+    "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": true,
+    "logo": "GIAS.svg",
+    "establishment": "2025",
+    "organization": "Global AI Governance Observatory",
+    "link": "https://www.agile-index.ai/",
+    "nextRelease": "2026-02",
+    "ranks": [
+      {
+        "rank": 11,
+        "total": 40,
+        "date": "2025-02"
+      }
+    ],
+    "categories": ["AI"],
+    "highlights": [
+      {
+        "indicatorName": "Cybersecurity Status",
+        "indicatorScore": 100,
+        "total": 100
+      },
+      {
+        "indicatorName": "National Laws & Regulations on AI Safety",
+        "indicatorScore": 100,
+        "total": 100
+      },
+      {
+        "indicatorName": "Technical & Policy Frameworks for AI Safety",
+        "indicatorScore": 100,
+        "total": 100
+      }
+    ]
+  },
+  {
     "id": "GAII",
     "countryCode": "US",
     "countryName": "United States",
@@ -33,7 +71,25 @@
         "date": "2020-12"
       }
     ],
-    "categories": ["AI"]
+
+    "categories": ["AI"],
+    "highlights": [
+      {
+        "indicatorName": "Human Capital",
+        "indicatorRank": 9,
+        "total": 64
+      },
+      {
+        "indicatorName": "Innovation",
+        "indicatorRank": 4,
+        "total": 72
+      },
+      {
+        "indicatorName": "Invesments",
+        "indicatorRank": 6,
+        "total": 80
+      }
+    ]
   },
   {
     "id": "EGDI",
@@ -75,8 +131,9 @@
     "id": "ISCI",
     "governmentOwner": "SDAIA",
     "isOwnedBySdaia": true,
-    "name": "IMD Smart City Index",
+    "name": "IMD Smart City Index (Riyadh)",
     "countryCode": "CH",
+    "nextRelease": "2025-04",
     "countryName": "Switzerland",
     "organization": "IMD",
     "establishment": "2019",
@@ -131,26 +188,7 @@
     ],
     "categories": ["AI", "DI"]
   },
-  {
-    "id": "GIRA",
-    "name": "The Global Index on Responsible AI",
-    "countryCode": "ZA",
-    "countryName": "South Africa",
-    "governmentOwner": "SDAIA",
-    "isOwnedBySdaia": true,
-    "organization": "Global Center on AI Governance",
-    "establishment": "2024",
-    "link": "https://www.global-index.ai/",
-    "logo": "ResAi.png",
-    "ranks": [
-      {
-        "rank": 40,
-        "total": 138,
-        "date": "2024-06"
-      }
-    ],
-    "categories": ["AI"]
-  },
+
   {
     "id": "WDCR",
     "name": "World Digital Competitiveness Ranking",
