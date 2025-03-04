@@ -75,19 +75,19 @@
     "categories": ["AI"],
     "highlights": [
       {
-        "indicatorName": "Human Capital",
-        "indicatorRank": 9,
-        "total": 64
+        "indicatorName": "Government Strategy",
+        "indicatorRank": 1,
+        "total": 83
       },
       {
-        "indicatorName": "Innovation",
-        "indicatorRank": 4,
-        "total": 72
+        "indicatorName": "Commercial",
+        "indicatorRank": 7,
+        "total": 83
       },
       {
         "indicatorName": "Invesments",
-        "indicatorRank": 6,
-        "total": 80
+        "indicatorRank": 26,
+        "total": 83
       }
     ]
   },
@@ -125,7 +125,24 @@
         "date": "2018-07"
       }
     ],
-    "categories": ["DI"]
+    "categories": ["DI"],
+    "highlights": [
+      {
+        "indicatorName": "Online Service Index",
+        "indicatorRank": 4,
+        "total": 193
+      },
+      {
+        "indicatorName": "Telecommunication Infrastructure Index",
+        "indicatorRank": 14,
+        "total": 193
+      },
+      {
+        "indicatorName": "Human Capital Index",
+        "indicatorRank": 19,
+        "total": 193
+      }
+    ]
   },
   {
     "id": "ISCI",
@@ -283,7 +300,24 @@
         "date": "2019-12"
       }
     ],
-    "categories": ["AI"]
+    "categories": ["AI"],
+    "highlights": [
+      {
+        "indicatorName": "Government",
+        "indicatorRank": 19,
+        "total": 193
+      },
+      {
+        "indicatorName": "Technology Sector",
+        "indicatorRank": 25,
+        "total": 193
+      },
+      {
+        "indicatorName": "Data & Infrastructure",
+        "indicatorRank": 20,
+        "total": 193
+      }
+    ]
   },
   {
     "id": "SGVT",
@@ -304,6 +338,23 @@
         "date": "2024-11"
       }
     ],
-    "categories": ["DI"]
+    "categories": ["AI"],
+    "highlights": [
+      {
+        "indicatorName": "Public Opinion",
+        "indicatorRank": 2,
+        "total": 36
+      },
+      {
+        "indicatorName": "Diversity",
+        "indicatorRank": 13,
+        "total": 36
+      },
+      {
+        "indicatorName": "Research & Development",
+        "indicatorRank": 17,
+        "total": 36
+      }
+    ]
   }
 ]
