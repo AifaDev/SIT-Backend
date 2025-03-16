@@ -9,12 +9,9 @@ import {
 
 const router = Router();
 
-// GET /api/indices
 router.get("/", getAllIndices);
 router.get("/releases", getIndicesReleases);
 router.get("/countries", getIndicesCountries);
-
-// GET /api/indices/:id (optional)
 router.get("/:id", getIndexById);
 
 export default router;

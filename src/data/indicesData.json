@@ -1,321 +1,362 @@
 [
   {
-    "id": "GIAIS",
+    "id": "GIAS",
+    "name": "Agile Global Index for AI Safety",
     "countryCode": "CN",
     "countryName": "China",
-    "name": "Agile Global Index for AI Safety",
-    "governmentOwner": "SDAIA",
-    "isOwnedBySdaia": true,
-    "logo": "GIAS.svg",
-    "establishment": "2025",
     "organization": "Global AI Governance Observatory",
+    "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": "TRUE",
+    "establishment": "2025",
     "link": "https://www.agile-index.ai/",
+    "logo": "GIAS.svg",
     "nextRelease": "2026-02",
+    "categories": ["AI"],
     "ranks": [
       {
-        "rank": 11,
-        "total": 40,
+        "rank": "11",
+        "total": "40",
         "date": "2025-02"
       }
     ],
-    "categories": ["AI"],
     "highlights": [
       {
         "indicatorName": "Cybersecurity Status",
-        "indicatorScore": 100,
-        "total": 100
+        "indicatorScore": "100",
+        "indicatorRank": null,
+        "total": "100"
       },
       {
         "indicatorName": "National Laws & Regulations on AI Safety",
-        "indicatorScore": 100,
-        "total": 100
+        "indicatorScore": "100",
+        "indicatorRank": null,
+        "total": "100"
       },
       {
         "indicatorName": "Technical & Policy Frameworks for AI Safety",
-        "indicatorScore": 100,
-        "total": 100
+        "indicatorScore": "100",
+        "indicatorRank": null,
+        "total": "100"
       }
     ]
   },
   {
     "id": "GAII",
+    "name": "Global AI Index",
     "countryCode": "US",
     "countryName": "United States",
-    "name": "Global AI Index",
-    "governmentOwner": "SDAIA",
-    "isOwnedBySdaia": true,
-    "logo": "Tortois.png",
-    "establishment": "2019",
     "organization": "Tortoise Media",
+    "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": "TRUE",
+    "establishment": "2019",
     "link": "https://www.tortoisemedia.com/intelligence/global-ai/",
+    "logo": "Tortois.png",
     "nextRelease": "2025-09",
+    "categories": ["AI"],
     "ranks": [
       {
-        "rank": 14,
-        "total": 83,
+        "rank": "14",
+        "total": "83",
         "date": "2024-09"
       },
       {
-        "rank": 31,
-        "total": 62,
+        "rank": "31",
+        "total": "62",
         "date": "2023-06"
       },
       {
-        "rank": 26,
-        "total": 62,
+        "rank": "26",
+        "total": "62",
         "date": "2021-12"
       },
       {
-        "rank": 22,
-        "total": 62,
+        "rank": "22",
+        "total": "62",
         "date": "2020-12"
       }
     ],
-
-    "categories": ["AI"],
     "highlights": [
       {
         "indicatorName": "Government Strategy",
-        "indicatorRank": 1,
-        "total": 83
+        "indicatorScore": null,
+        "indicatorRank": "1",
+        "total": "83",
+        "type": 2
       },
       {
         "indicatorName": "Commercial",
-        "indicatorRank": 7,
-        "total": 83
+        "indicatorScore": null,
+        "indicatorRank": "7",
+        "total": "83",
+        "type": 1
       },
       {
         "indicatorName": "Invesments",
-        "indicatorRank": 26,
-        "total": 83
+        "indicatorScore": null,
+        "indicatorRank": "26",
+        "total": "83",
+        "type": 1
       }
-    ]
+    ],
+    "highlightsTypes": ["Indicators", "Sub-Indicators"]
   },
   {
     "id": "EGDI",
+    "name": "E-Government Development Index",
     "countryCode": "US",
     "countryName": "United States",
-    "link": "https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index",
     "organization": "United Nations",
-    "establishment": "2003",
-    "name": "E-Government Development Index",
-    "nextRelease": "2026-09",
     "governmentOwner": "Not SDAIA",
-    "isOwnedBySdaia": false,
+    "isOwnedBySdaia": "FALSE",
+    "establishment": "2003",
+    "link": "https://publicadministration.un.org/egovkb/en-us/About/Overview/-E-Government-Development-Index",
     "logo": "UN.png",
+    "nextRelease": "2026-09",
+    "categories": ["DI"],
     "ranks": [
       {
-        "rank": 6,
-        "total": 193,
+        "rank": "6",
+        "total": "193",
         "date": "2024-09"
       },
       {
-        "rank": 31,
-        "total": 193,
+        "rank": "31",
+        "total": "193",
         "date": "2022-09"
       },
       {
-        "rank": 43,
-        "total": 193,
+        "rank": "43",
+        "total": "193",
         "date": "2020-07"
       },
       {
-        "rank": 52,
-        "total": 193,
+        "rank": "52",
+        "total": "193",
         "date": "2018-07"
       }
     ],
-    "categories": ["DI"],
     "highlights": [
       {
         "indicatorName": "Online Service Index",
-        "indicatorRank": 4,
-        "total": 193
+        "indicatorScore": null,
+        "indicatorRank": "4",
+        "total": "193"
       },
       {
         "indicatorName": "Telecommunication Infrastructure Index",
-        "indicatorRank": 14,
-        "total": 193
+        "indicatorScore": null,
+        "indicatorRank": "14",
+        "total": "193"
       },
       {
-        "indicatorName": "Human Capital Index",
-        "indicatorRank": 19,
-        "total": 193
+        "indicatorName": "Open Government Data",
+        "indicatorScore": "100",
+        "indicatorRank": null,
+        "total": "100"
       }
     ]
   },
   {
     "id": "ISCI",
-    "governmentOwner": "SDAIA",
-    "isOwnedBySdaia": true,
     "name": "IMD Smart City Index (Riyadh)",
     "countryCode": "CH",
-    "nextRelease": "2025-04",
     "countryName": "Switzerland",
     "organization": "IMD",
+    "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": "TRUE",
     "establishment": "2019",
     "link": "https://www.imd.org/smart-city-observatory/home/",
     "logo": "IMD.png",
+    "nextRelease": "2025-04",
+    "categories": ["SC"],
     "ranks": [
       {
-        "rank": 25,
-        "total": 142,
+        "rank": "25",
+        "total": "142",
         "date": "2024-04"
       },
       {
-        "rank": 30,
-        "total": 142,
+        "rank": "30",
+        "total": "142",
         "date": "2023-04"
       },
       {
-        "rank": 39,
-        "total": 118,
+        "rank": "39",
+        "total": "118",
         "date": "2021-10"
       },
       {
-        "rank": 44,
-        "total": 109,
+        "rank": "44",
+        "total": "109",
         "date": "2020-09"
       },
       {
-        "rank": 55,
-        "total": 102,
+        "rank": "55",
+        "total": "102",
         "date": "2019-10"
       }
     ],
-    "categories": ["SC"]
+
+    "highlights": [
+      {
+        "indicatorName": "Mecca",
+        "indicatorRank": "52",
+        "indicatorScore": null,
+        "total": "142",
+        "type": 1
+      },
+      {
+        "indicatorName": "Jeddah",
+        "indicatorRank": "55",
+        "indicatorScore": null,
+        "total": "142",
+        "type": 1
+      },
+      {
+        "indicatorName": "Madinah",
+        "indicatorRank": "74",
+        "indicatorScore": null,
+        "total": "142",
+        "type": 1
+      },
+      {
+        "indicatorName": "Khobar",
+        "indicatorRank": "99",
+        "indicatorScore": null,
+        "total": "142",
+        "type": 1
+      }
+    ],
+    "highlightsTypes": ["Cities"]
   },
   {
     "id": "IAPI",
     "name": "IMF AI Preparedness Index",
     "countryCode": "US",
     "countryName": "United States",
-    "governmentOwner": "SDAIA",
-    "isOwnedBySdaia": true,
     "organization": "IMF",
+    "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": "TRUE",
     "establishment": "2024",
     "link": "https://www.imf.org/external/datamapper/datasets/AIPI",
     "logo": "IMF.png",
+    "categories": ["AI", "DI"],
     "ranks": [
       {
-        "rank": 45,
-        "total": 174,
+        "rank": "45",
+        "total": "174",
         "date": "2024-07"
       }
     ],
-    "categories": ["AI", "DI"]
+    "highlights": []
   },
-
   {
     "id": "WDCR",
     "name": "World Digital Competitiveness Ranking",
     "countryCode": "CH",
     "countryName": "Switzerland",
-    "governmentOwner": "Not SDAIA",
-    "isOwnedBySdaia": false,
     "organization": "IMD",
-    "logo": "IMD.png",
-    "link": "https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-digital-competitiveness-ranking/",
+    "governmentOwner": "Not SDAIA",
+    "isOwnedBySdaia": "FALSE",
     "establishment": "2017",
+    "link": "https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-digital-competitiveness-ranking/",
+    "logo": "IMD.png",
+    "categories": ["DI"],
     "ranks": [
       {
-        "rank": 30,
-        "total": 64,
+        "rank": "30",
+        "total": "64",
         "date": "2023-12"
       },
       {
-        "rank": 35,
-        "total": null,
+        "rank": "35",
         "date": "2022-03"
       },
       {
-        "rank": 36,
-        "total": null,
+        "rank": "36",
         "date": "2021-03"
       },
       {
-        "rank": 34,
-        "total": null,
+        "rank": "34",
         "date": "2020-10"
       },
       {
-        "rank": 39,
-        "total": null,
+        "rank": "39",
         "date": "2019-08"
       },
       {
-        "rank": 42,
-        "total": null,
+        "rank": "42",
         "date": "2018-10"
       },
       {
-        "rank": 36,
-        "total": null,
+        "rank": "36",
         "date": "2017-01"
       }
-    ],
-    "categories": ["DI"]
+    ]
   },
   {
     "id": "GARI",
     "name": "Government AI Readiness Index",
     "countryCode": "GB",
     "countryName": "United Kingdom",
-    "governmentOwner": "SDAIA",
-    "isOwnedBySdaia": true,
-    "logo": "OxfordInsights.png",
-    "establishment": "2017",
     "organization": "Oxford Insights",
-    "nextRelease": "2025-12",
+    "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": "TRUE",
+    "establishment": "2017",
     "link": "https://oxfordinsights.com/ai-readiness/ai-readiness-index/",
+    "logo": "OxfordInsights.png",
+    "nextRelease": "2025-12",
+    "categories": ["AI", "DI"],
     "ranks": [
       {
-        "rank": 22,
-        "total": 188,
+        "rank": "22",
+        "total": "188",
         "date": "2024-12"
       },
       {
-        "rank": 29,
-        "total": 193,
+        "rank": "29",
+        "total": "193",
         "date": "2023-12"
       },
       {
-        "rank": 39,
-        "total": 181,
+        "rank": "39",
+        "total": "181",
         "date": "2022-12"
       },
       {
-        "rank": 34,
-        "total": 160,
+        "rank": "34",
+        "total": "160",
         "date": "2021-12"
       },
       {
-        "rank": 38,
-        "total": 172,
+        "rank": "38",
+        "total": "172",
         "date": "2020-12"
       },
       {
-        "rank": 78,
-        "total": 194,
+        "rank": "78",
+        "total": "194",
         "date": "2019-12"
       }
     ],
-    "categories": ["AI"],
     "highlights": [
       {
         "indicatorName": "Government",
-        "indicatorRank": 19,
-        "total": 193
+        "indicatorScore": null,
+        "indicatorRank": "19",
+        "total": "193"
       },
       {
         "indicatorName": "Technology Sector",
-        "indicatorRank": 25,
-        "total": 193
+        "indicatorScore": null,
+        "indicatorRank": "25",
+        "total": "193"
       },
       {
         "indicatorName": "Data & Infrastructure",
-        "indicatorRank": 20,
-        "total": 193
+        "indicatorScore": null,
+        "indicatorRank": "20",
+        "total": "193"
       }
     ]
   },
@@ -324,37 +365,29 @@
     "name": "Stanford Global AI Vibrancy Tool",
     "countryCode": "US",
     "countryName": "United States",
-    "governmentOwner": "SDAIA",
-    "isOwnedBySdaia": true,
-    "logo": "GVT.png",
-    "establishment": "2017",
     "organization": "Stanford HAI",
-    "nextRelease": "2025-04",
+    "governmentOwner": "SDAIA",
+    "isOwnedBySdaia": "TRUE",
+    "establishment": "2017",
     "link": "https://aiindex.stanford.edu/vibrancy/",
+    "logo": "GVT.png",
+    "nextRelease": "2025-04",
+    "categories": ["AI"],
     "ranks": [
       {
-        "rank": 27,
-        "total": 36,
+        "rank": "27",
+        "total": "36",
         "date": "2024-11"
       }
     ],
-    "categories": ["AI"],
     "highlights": [
       {
-        "indicatorName": "Public Opinion",
-        "indicatorRank": 2,
-        "total": 36
-      },
-      {
-        "indicatorName": "Diversity",
-        "indicatorRank": 13,
-        "total": 36
-      },
-      {
-        "indicatorName": "Research & Development",
-        "indicatorRank": 17,
-        "total": 36
+        "indicatorName": "R&D",
+        "indicatorScore": null,
+        "indicatorRank": "2",
+        "total": "36"
       }
-    ]
+    ],
+    "highlightsTypes": ["Indicators", "Sub-Indicators"]
   }
 ]
