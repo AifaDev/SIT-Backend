@@ -1,10 +1,10 @@
 [
   {
     "id": "GIAS",
-    "name": "Agile Global Index for AI Safety",
+    "name": "Global Index for AI Safety",
     "countryCode": "CN",
     "countryName": "China",
-    "organization": "Global AI Governance Observatory",
+    "organization": "International Research Center for AI Ethics and Governance",
     "governmentOwner": "SDAIA",
     "isOwnedBySdaia": "TRUE",
     "establishment": "2025",
@@ -250,50 +250,7 @@
     ],
     "highlights": []
   },
-  {
-    "id": "WDCR",
-    "name": "World Digital Competitiveness Ranking",
-    "countryCode": "CH",
-    "countryName": "Switzerland",
-    "organization": "IMD",
-    "governmentOwner": "Not SDAIA",
-    "isOwnedBySdaia": "FALSE",
-    "establishment": "2017",
-    "link": "https://www.imd.org/centers/wcc/world-competitiveness-center/rankings/world-digital-competitiveness-ranking/",
-    "logo": "IMD.png",
-    "categories": ["DI"],
-    "ranks": [
-      {
-        "rank": "30",
-        "total": "64",
-        "date": "2023-12"
-      },
-      {
-        "rank": "35",
-        "date": "2022-03"
-      },
-      {
-        "rank": "36",
-        "date": "2021-03"
-      },
-      {
-        "rank": "34",
-        "date": "2020-10"
-      },
-      {
-        "rank": "39",
-        "date": "2019-08"
-      },
-      {
-        "rank": "42",
-        "date": "2018-10"
-      },
-      {
-        "rank": "36",
-        "date": "2017-01"
-      }
-    ]
-  },
+
   {
     "id": "GARI",
     "name": "Government AI Readiness Index",
@@ -382,10 +339,457 @@
     ],
     "highlights": [
       {
-        "indicatorName": "R&D",
+        "indicatorName": "AAAI Conference Submissions on RAI Topics",
+        "indicatorValue": "0",
+        "indicatorWeight": "17.39%",
+        "indicatorScore": 0,
+        "MaxScore": null,
+        "indicatorRank": 36,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "Responsible AI"
+      },
+      {
+        "indicatorName": "AIES Conference Submissions on RAI Topics",
+        "indicatorValue": "0",
+        "indicatorWeight": "13.04%",
+        "indicatorScore": 0,
+        "MaxScore": null,
+        "indicatorRank": 36,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "Responsible AI"
+      },
+      {
+        "indicatorName": "FAccT Conference Submissions on RAI Topics",
+        "indicatorValue": "0",
+        "indicatorWeight": "15.22%",
+        "indicatorScore": 0,
+        "MaxScore": null,
+        "indicatorRank": 36,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "Responsible AI"
+      },
+      {
+        "indicatorName": "ICLR Conference Submissions on RAI Topics",
+        "indicatorValue": "0",
+        "indicatorWeight": "15.22%",
+        "indicatorScore": 0,
+        "MaxScore": null,
+        "indicatorRank": 36,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "Responsible AI"
+      },
+      {
+        "indicatorName": "ICML Conference Submissions on RAI Topics",
+        "indicatorValue": "0",
+        "indicatorWeight": "17.39%",
+        "indicatorScore": 0,
+        "MaxScore": null,
+        "indicatorRank": 36,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "Responsible AI"
+      },
+      {
+        "indicatorName": "NeurIPS Conference Submissions on RAI Topics",
+        "indicatorValue": "3",
+        "indicatorWeight": "21.74%",
+        "indicatorScore": 0.69,
+        "MaxScore": null,
+        "indicatorRank": 19,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "Responsible AI"
+      },
+
+      {
+        "indicatorName": "Total AI Private Investment",
+        "indicatorValue": "-",
+        "indicatorWeight": "15.87%",
         "indicatorScore": null,
-        "indicatorRank": "2",
-        "total": "36"
+        "MaxScore": null,
+        "indicatorRank": 34,
+        "totalRanked": 34,
+        "type": 2,
+        "group": "Economy"
+      },
+      {
+        "indicatorName": "Total AI Merger/Acquisition Investment",
+        "indicatorValue": "-",
+        "indicatorWeight": "14.29%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 34,
+        "totalRanked": 34,
+        "type": 2,
+        "group": "Economy"
+      },
+      {
+        "indicatorName": "Total AI Minority Stake Investment",
+        "indicatorValue": "-",
+        "indicatorWeight": "11.11%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 34,
+        "totalRanked": 34,
+        "type": 2,
+        "group": "Economy"
+      },
+      {
+        "indicatorName": "Total AI Public Offering Investment",
+        "indicatorValue": "-",
+        "indicatorWeight": "11.11%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 34,
+        "totalRanked": 34,
+        "type": 2,
+        "group": "Economy"
+      },
+      {
+        "indicatorName": "Newly Funded AI Companies",
+        "indicatorValue": "-",
+        "indicatorWeight": "14.29%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 34,
+        "totalRanked": 34,
+        "type": 2,
+        "group": "Economy"
+      },
+      {
+        "indicatorName": "Relative AI Skill Penetration",
+        "indicatorValue": "-",
+        "indicatorWeight": "4.76%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 24,
+        "totalRanked": 24,
+        "type": 2,
+        "group": "Economy"
+      },
+      {
+        "indicatorName": "AI Hiring Rate YoY Ratio",
+        "indicatorValue": "-",
+        "indicatorWeight": "9.52%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 24,
+        "totalRanked": 24,
+        "type": 2,
+        "group": "Economy"
+      },
+      {
+        "indicatorName": "AI Talent Concentration",
+        "indicatorValue": "-",
+        "indicatorWeight": "9.52%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 25,
+        "totalRanked": 25,
+        "type": 2,
+        "group": "Economy"
+      },
+      {
+        "indicatorName": "AI Job Postings (% of Total)",
+        "indicatorValue": "-",
+        "indicatorWeight": "0%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 14,
+        "totalRanked": 14,
+        "type": 2,
+        "group": "Economy"
+      },
+      {
+        "indicatorName": "Net Migration Flow of AI Skills",
+        "indicatorValue": "-",
+        "indicatorWeight": "9.52%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 25,
+        "totalRanked": 25,
+        "type": 2,
+        "group": "Economy"
+      },
+
+      {
+        "indicatorName": "AI Study Programs in English",
+        "indicatorValue": "2",
+        "indicatorWeight": "46.15%",
+        "indicatorScore": 0.27,
+        "MaxScore": null,
+        "indicatorRank": 29,
+        "totalRanked": 34,
+        "type": 2,
+        "group": "Education"
+      },
+      {
+        "indicatorName": "AI Study Programs in English Penetration",
+        "indicatorValue": "1.14%",
+        "indicatorWeight": "53.85%",
+        "indicatorScore": 25.86,
+        "MaxScore": null,
+        "indicatorRank": 22,
+        "totalRanked": 33,
+        "type": 2,
+        "group": "Education"
+      },
+
+      {
+        "indicatorName": "AI Talent Concentration Gender Equality Index",
+        "indicatorValue": "-",
+        "indicatorWeight": "100%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 25,
+        "totalRanked": 25,
+        "type": 2,
+        "group": "Diversity"
+      },
+
+      {
+        "indicatorName": "National AI Strategy Presence",
+        "indicatorValue": "1",
+        "indicatorWeight": "38.46%",
+        "indicatorScore": 100,
+        "MaxScore": null,
+        "indicatorRank": 1,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "Policy & Governance"
+      },
+      {
+        "indicatorName": "AI Legislation Passed",
+        "indicatorValue": "0",
+        "indicatorWeight": "38.46%",
+        "indicatorScore": 0,
+        "MaxScore": null,
+        "indicatorRank": 36,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "Policy & Governance"
+      },
+      {
+        "indicatorName": "AI Mentions in Legislative Proceedings",
+        "indicatorValue": "-",
+        "indicatorWeight": "23.08%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 32,
+        "totalRanked": 32,
+        "type": 2,
+        "group": "Policy & Governance"
+      },
+      {
+        "indicatorName": "AI Journal Publications",
+        "indicatorValue": "4.48k",
+        "indicatorWeight": "11.43%",
+        "indicatorScore": 4.93,
+        "MaxScore": null,
+        "indicatorRank": 13,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "AI Conference Publications",
+        "indicatorValue": "341",
+        "indicatorWeight": "8.57%",
+        "indicatorScore": 2.28,
+        "MaxScore": null,
+        "indicatorRank": 14,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "AI Journal Citations",
+        "indicatorValue": "25.83k",
+        "indicatorWeight": "11.43%",
+        "indicatorScore": 9.06,
+        "MaxScore": null,
+        "indicatorRank": 10,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "AI Conference Citations",
+        "indicatorValue": "392",
+        "indicatorWeight": "10%",
+        "indicatorScore": 2.49,
+        "MaxScore": null,
+        "indicatorRank": 11,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "AI Patent Grants",
+        "indicatorValue": "0",
+        "indicatorWeight": "11.43%",
+        "indicatorScore": 0,
+        "MaxScore": null,
+        "indicatorRank": 35,
+        "totalRanked": 35,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "Notable Machine Learning Models",
+        "indicatorValue": "0",
+        "indicatorWeight": "12.86%",
+        "indicatorScore": 0,
+        "MaxScore": null,
+        "indicatorRank": 36,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "Academia-Industry Model Production Concentration",
+        "indicatorValue": "-",
+        "indicatorWeight": "0%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 12,
+        "totalRanked": 12,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "Foundation Models",
+        "indicatorValue": "-",
+        "indicatorWeight": "4.29%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 15,
+        "totalRanked": 15,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "Foundation Models Datasets",
+        "indicatorValue": "-",
+        "indicatorWeight": "4.29%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 15,
+        "totalRanked": 15,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "Foundation Models Applications",
+        "indicatorValue": "-",
+        "indicatorWeight": "4.29%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 15,
+        "totalRanked": 15,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "Open Access Foundation Models",
+        "indicatorValue": "-",
+        "indicatorWeight": "0%",
+        "indicatorScore": null,
+        "MaxScore": null,
+        "indicatorRank": 13,
+        "totalRanked": 13,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "AI GitHub Projects",
+        "indicatorValue": "4.28k",
+        "indicatorWeight": "10%",
+        "indicatorScore": 0.85,
+        "MaxScore": null,
+        "indicatorRank": 33,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "AI GitHub Projects Stars",
+        "indicatorValue": "18.38k",
+        "indicatorWeight": "11.43%",
+        "indicatorScore": 0.31,
+        "MaxScore": null,
+        "indicatorRank": 30,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "R&D",
+        "indicatorScore": 0.64,
+        "MaxScore": null,
+        "indicatorRank": 17,
+        "totalRanked": 36,
+        "type": 1
+      },
+      {
+        "indicatorName": "Responsible AI",
+        "indicatorScore": 0.01,
+        "MaxScore": null,
+        "indicatorRank": 30,
+        "totalRanked": 36,
+        "type": 1
+      },
+      {
+        "indicatorName": "Economy",
+        "indicatorScore": 2.47,
+        "MaxScore": null,
+        "indicatorRank": 21,
+        "totalRanked": 36,
+        "type": 1
+      },
+      {
+        "indicatorName": "Education",
+        "indicatorScore": 0.8,
+        "MaxScore": null,
+        "indicatorRank": 28,
+        "totalRanked": 36,
+        "type": 1
+      },
+      {
+        "indicatorName": "Diversity",
+        "indicatorScore": 1.08,
+        "MaxScore": null,
+        "indicatorRank": 13,
+        "totalRanked": 36,
+        "type": 1
+      },
+      {
+        "indicatorName": "Policy & Governance",
+        "indicatorScore": 4.56,
+        "MaxScore": null,
+        "indicatorRank": 21,
+        "totalRanked": 36,
+        "type": 1
+      },
+      {
+        "indicatorName": "Public Opinion",
+        "indicatorScore": 2.25,
+        "MaxScore": null,
+        "indicatorRank": 2,
+        "totalRanked": 36,
+        "type": 1
+      },
+      {
+        "indicatorName": "Infrastructure",
+        "indicatorScore": 1.55,
+        "MaxScore": null,
+        "indicatorRank": 27,
+        "totalRanked": 36,
+        "type": 1
       }
     ],
     "highlightsTypes": ["Indicators", "Sub-Indicators"]
