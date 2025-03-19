@@ -98,7 +98,7 @@
         "type": 1
       }
     ],
-    "highlightsTypes": ["Indicators", "Sub-Indicators"]
+    "IndicatorsTypes": ["Indicators", "Sub-Indicators"]
   },
   {
     "id": "EGDI",
@@ -135,6 +135,7 @@
         "date": "2018-07"
       }
     ],
+
     "highlights": [
       {
         "indicatorName": "Online Service Index",
@@ -227,7 +228,7 @@
         "type": 1
       }
     ],
-    "highlightsTypes": ["Cities"]
+    "IndicatorsTypes": ["Cities"]
   },
   {
     "id": "IAPI",
@@ -338,6 +339,49 @@
       }
     ],
     "highlights": [
+      {
+        "indicatorName": "National AI Strategy Presence",
+        "indicatorValue": "1",
+        "indicatorWeight": "38.46%",
+        "indicatorScore": 100,
+        "MaxScore": null,
+        "indicatorRank": 1,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "Policy & Governance"
+      },
+      {
+        "indicatorName": "AI Conference Citations",
+        "indicatorValue": "392",
+        "indicatorWeight": "10%",
+        "indicatorScore": 2.49,
+        "MaxScore": null,
+        "indicatorRank": 11,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "AI Journal Citations",
+        "indicatorValue": "25.83k",
+        "indicatorWeight": "11.43%",
+        "indicatorScore": 9.06,
+        "MaxScore": null,
+        "indicatorRank": 10,
+        "totalRanked": 36,
+        "type": 2,
+        "group": "R&D"
+      },
+      {
+        "indicatorName": "Public Opinion",
+        "indicatorScore": 2.25,
+        "MaxScore": null,
+        "indicatorRank": 2,
+        "totalRanked": 36,
+        "type": 1
+      }
+    ],
+    "indicators": [
       {
         "indicatorName": "AAAI Conference Submissions on RAI Topics",
         "indicatorValue": "0",
@@ -792,6 +836,6 @@
         "type": 1
       }
     ],
-    "highlightsTypes": ["Indicators", "Sub-Indicators"]
+    "IndicatorsTypes": ["Indicators", "Sub-Indicators"]
   }
 ]
