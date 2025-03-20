@@ -32,32 +32,7 @@
         "date": "2025-02"
       }
     ],
-    "highlights": [
-      {
-        "indicatorScore": "100",
-        "total": "100",
-        "indicatorName": {
-          "en": "Cybersecurity Status",
-          "ar": null
-        }
-      },
-      {
-        "indicatorScore": "100",
-        "total": "100",
-        "indicatorName": {
-          "en": "National Laws & Regulations on AI Safety",
-          "ar": null
-        }
-      },
-      {
-        "indicatorScore": "100",
-        "total": "100",
-        "indicatorName": {
-          "en": "Technical & Policy Frameworks for AI Safety",
-          "ar": null
-        }
-      }
-    ],
+    "highlights": [],
     "indicators": []
   },
   {
@@ -83,7 +58,7 @@
     },
     "indicatorsTypes": {
       "en": ["Indicators", "Sub-Indicators"],
-      "ar": ["المؤشرات، المؤشرات الفرعية"]
+      "ar": ["المؤشرات", "المؤشرات الفرعية"]
     },
     "categories": ["AI"],
     "ranks": [
@@ -108,35 +83,7 @@
         "date": "2020-12"
       }
     ],
-    "highlights": [
-      {
-        "indicatorRank": "1",
-        "total": "83",
-        "level": "2",
-        "indicatorName": {
-          "en": "Government Strategy",
-          "ar": null
-        }
-      },
-      {
-        "indicatorRank": "7",
-        "total": "83",
-        "level": "1",
-        "indicatorName": {
-          "en": "Commercial",
-          "ar": null
-        }
-      },
-      {
-        "indicatorRank": "26",
-        "total": "83",
-        "level": "1",
-        "indicatorName": {
-          "en": "Invesments",
-          "ar": null
-        }
-      }
-    ],
+    "highlights": [],
     "indicators": []
   },
   {
@@ -162,7 +109,7 @@
     },
     "indicatorsTypes": {
       "en": ["Indicators", "Sub-Indicators"],
-      "ar": ["المؤشرات، المؤشرات الفرعية"]
+      "ar": ["المؤشرات", "المؤشرات الفرعية"]
     },
     "categories": ["DI"],
     "ranks": [
@@ -187,32 +134,7 @@
         "date": "2018-07"
       }
     ],
-    "highlights": [
-      {
-        "indicatorRank": "4",
-        "total": "193",
-        "indicatorName": {
-          "en": "Online Service Index",
-          "ar": null
-        }
-      },
-      {
-        "indicatorRank": "14",
-        "total": "193",
-        "indicatorName": {
-          "en": "Telecommunication Infrastructure Index",
-          "ar": null
-        }
-      },
-      {
-        "indicatorScore": "100",
-        "total": "100",
-        "indicatorName": {
-          "en": "Open Government Data",
-          "ar": null
-        }
-      }
-    ],
+    "highlights": [],
     "indicators": []
   },
   {
@@ -271,42 +193,137 @@
     "highlights": [
       {
         "indicatorRank": "52",
-        "total": "142",
+        "totalRanked": "142",
         "level": "1",
         "indicatorName": {
           "en": "Mecca",
+          "ar": "مكة"
+        },
+        "group": {
+          "en": null,
           "ar": null
         }
       },
       {
         "indicatorRank": "55",
-        "total": "142",
+        "totalRanked": "142",
         "level": "1",
         "indicatorName": {
           "en": "Jeddah",
+          "ar": "جدة"
+        },
+        "group": {
+          "en": null,
           "ar": null
         }
       },
       {
         "indicatorRank": "74",
-        "total": "142",
+        "totalRanked": "142",
         "level": "1",
         "indicatorName": {
           "en": "Madinah",
+          "ar": "المدينة المنورة"
+        },
+        "group": {
+          "en": null,
           "ar": null
         }
       },
       {
         "indicatorRank": "99",
-        "total": "142",
+        "totalRanked": "142",
         "level": "1",
         "indicatorName": {
           "en": "Khobar",
+          "ar": "الخبر"
+        },
+        "group": {
+          "en": null,
+          "ar": null
+        }
+      },
+      {
+        "indicatorRank": "25",
+        "totalRanked": "142",
+        "level": "1",
+        "indicatorName": {
+          "en": "Riyadh",
+          "ar": "الرياض"
+        },
+        "group": {
+          "en": null,
           "ar": null
         }
       }
     ],
-    "indicators": []
+    "indicators": [
+      {
+        "indicatorRank": "52",
+        "totalRanked": "142",
+        "level": "1",
+        "indicatorName": {
+          "en": "Mecca",
+          "ar": "مكة"
+        },
+        "group": {
+          "en": null,
+          "ar": null
+        }
+      },
+      {
+        "indicatorRank": "55",
+        "totalRanked": "142",
+        "level": "1",
+        "indicatorName": {
+          "en": "Jeddah",
+          "ar": "جدة"
+        },
+        "group": {
+          "en": null,
+          "ar": null
+        }
+      },
+      {
+        "indicatorRank": "74",
+        "totalRanked": "142",
+        "level": "1",
+        "indicatorName": {
+          "en": "Madinah",
+          "ar": "المدينة المنورة"
+        },
+        "group": {
+          "en": null,
+          "ar": null
+        }
+      },
+      {
+        "indicatorRank": "99",
+        "totalRanked": "142",
+        "level": "1",
+        "indicatorName": {
+          "en": "Khobar",
+          "ar": "الخبر"
+        },
+        "group": {
+          "en": null,
+          "ar": null
+        }
+      },
+      {
+        "indicatorRank": "25",
+        "totalRanked": "142",
+        "level": "1",
+        "indicatorName": {
+          "en": "Riyadh",
+          "ar": "الرياض"
+        },
+        "group": {
+          "en": null,
+          "ar": null
+        }
+      }
+    ]
   },
   {
     "id": "IAPI",
@@ -330,7 +347,7 @@
     },
     "indicatorsTypes": {
       "en": ["Indicators", "Sub-Indicators"],
-      "ar": ["المؤشرات، المؤشرات الفرعية"]
+      "ar": ["المؤشرات", "المؤشرات الفرعية"]
     },
     "categories": ["AI", "DI"],
     "ranks": [
@@ -366,7 +383,7 @@
     },
     "indicatorsTypes": {
       "en": ["Pillars", "Dimensions"],
-      "ar": ["الأعمدة، الأبعاد"]
+      "ar": ["الأعمدة", "الأبعاد"]
     },
     "categories": ["AI", "DI"],
     "ranks": [
@@ -401,32 +418,7 @@
         "date": "2019-12"
       }
     ],
-    "highlights": [
-      {
-        "indicatorRank": "19",
-        "total": "193",
-        "indicatorName": {
-          "en": "Government",
-          "ar": null
-        }
-      },
-      {
-        "indicatorRank": "25",
-        "total": "193",
-        "indicatorName": {
-          "en": "Technology Sector",
-          "ar": null
-        }
-      },
-      {
-        "indicatorRank": "20",
-        "total": "193",
-        "indicatorName": {
-          "en": "Data & Infrastructure",
-          "ar": null
-        }
-      }
-    ],
+    "highlights": [],
     "indicators": []
   },
   {
@@ -452,7 +444,7 @@
     },
     "indicatorsTypes": {
       "en": ["Indicators", "Sub-Indicators"],
-      "ar": ["المؤشرات، المؤشرات الفرعية"]
+      "ar": ["المؤشرات", "المؤشرات الفرعية"]
     },
     "categories": ["AI"],
     "ranks": [
@@ -469,10 +461,13 @@
         "indicatorValue": "1",
         "indicatorWeight": "38.46%",
         "totalRanked": "36",
-        "group": "Policy & Governance",
         "level": "2",
         "indicatorName": {
           "en": "National AI Strategy Presence",
+          "ar": "وجود استراتيجية وطنية للذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Policy & Governance",
           "ar": null
         }
       },
@@ -482,10 +477,13 @@
         "indicatorValue": "392",
         "indicatorWeight": "10%",
         "totalRanked": "36",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "AI Conference Citations",
+          "ar": "اقتباسات مؤتمرات الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "R&D",
           "ar": null
         }
       },
@@ -495,10 +493,13 @@
         "indicatorValue": "25.83k",
         "indicatorWeight": "11.43%",
         "totalRanked": "36",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "AI Journal Citations",
+          "ar": "اقتباسات مجلات الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "R&D",
           "ar": null
         }
       },
@@ -509,6 +510,10 @@
         "level": "1",
         "indicatorName": {
           "en": "Public Opinion",
+          "ar": "الرأي العام"
+        },
+        "group": {
+          "en": null,
           "ar": null
         }
       }
@@ -520,11 +525,14 @@
         "indicatorValue": "0",
         "indicatorWeight": "17.39%",
         "totalRanked": "36",
-        "group": "Responsible AI",
         "level": "2",
         "indicatorName": {
           "en": "AAAI Conference Submissions on RAI Topics",
           "ar": "الأوراق المقدمة لمؤتمر AAAI حول مواضيع الذكاء الاصطناعي المسؤول"
+        },
+        "group": {
+          "en": "Responsible AI",
+          "ar": "الذكاء الاصطناعي المسؤول"
         }
       },
       {
@@ -533,11 +541,14 @@
         "indicatorValue": "0",
         "indicatorWeight": "13.04%",
         "totalRanked": "36",
-        "group": "Responsible AI",
         "level": "2",
         "indicatorName": {
           "en": "AIES Conference Submissions on RAI Topics",
           "ar": "الأوراق المقدمة لمؤتمر AIES حول مواضيع الذكاء الاصطناعي المسؤول"
+        },
+        "group": {
+          "en": "Responsible AI",
+          "ar": "الذكاء الاصطناعي المسؤول"
         }
       },
       {
@@ -546,11 +557,14 @@
         "indicatorValue": "0",
         "indicatorWeight": "15.22%",
         "totalRanked": "36",
-        "group": "Responsible AI",
         "level": "2",
         "indicatorName": {
           "en": "FAccT Conference Submissions on RAI Topics",
           "ar": "الأوراق المقدمة لمؤتمر FAccT حول مواضيع الذكاء الاصطناعي المسؤول"
+        },
+        "group": {
+          "en": "Responsible AI",
+          "ar": "الذكاء الاصطناعي المسؤول"
         }
       },
       {
@@ -559,11 +573,14 @@
         "indicatorValue": "0",
         "indicatorWeight": "15.22%",
         "totalRanked": "36",
-        "group": "Responsible AI",
         "level": "2",
         "indicatorName": {
           "en": "ICLR Conference Submissions on RAI Topics",
           "ar": "الأوراق المقدمة لمؤتمر ICLR حول مواضيع الذكاء الاصطناعي المسؤول"
+        },
+        "group": {
+          "en": "Responsible AI",
+          "ar": "الذكاء الاصطناعي المسؤول"
         }
       },
       {
@@ -572,11 +589,14 @@
         "indicatorValue": "0",
         "indicatorWeight": "17.39%",
         "totalRanked": "36",
-        "group": "Responsible AI",
         "level": "2",
         "indicatorName": {
           "en": "ICML Conference Submissions on RAI Topics",
           "ar": "الأوراق المقدمة لمؤتمر ICML حول مواضيع الذكاء الاصطناعي المسؤول"
+        },
+        "group": {
+          "en": "Responsible AI",
+          "ar": "الذكاء الاصطناعي المسؤول"
         }
       },
       {
@@ -585,11 +605,14 @@
         "indicatorValue": "3",
         "indicatorWeight": "21.74%",
         "totalRanked": "36",
-        "group": "Responsible AI",
         "level": "2",
         "indicatorName": {
           "en": "NeurIPS Conference Submissions on RAI Topics",
           "ar": "الأوراق المقدمة لمؤتمر NeurIPS حول مواضيع الذكاء الاصطناعي المسؤول"
+        },
+        "group": {
+          "en": "Responsible AI",
+          "ar": "الذكاء الاصطناعي المسؤول"
         }
       },
       {
@@ -597,11 +620,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "15.87%",
         "totalRanked": "34",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "Total AI Private Investment",
           "ar": "إجمالي الاستثمارات الخاصة في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -609,11 +635,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "14.29%",
         "totalRanked": "34",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "Total AI Merger/Acquisition Investment",
           "ar": "إجمالي استثمارات الاندماج والاستحواذ في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -621,11 +650,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "11.11%",
         "totalRanked": "34",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "Total AI Minority Stake Investment",
           "ar": "إجمالي استثمارات الحصص الأقلية في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -633,11 +665,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "11.11%",
         "totalRanked": "34",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "Total AI Public Offering Investment",
           "ar": "إجمالي استثمارات الطرح العام في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -645,11 +680,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "14.29%",
         "totalRanked": "34",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "Newly Funded AI Companies",
           "ar": "الشركات الجديدة الممولة في مجال الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -657,11 +695,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "4.76%",
         "totalRanked": "24",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "Relative AI Skill Penetration",
           "ar": "الانتشار النسبي للمهارات في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -669,11 +710,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "9.52%",
         "totalRanked": "24",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "AI Hiring Rate YoY Ratio",
           "ar": "معدل التوظيف في الذكاء الاصطناعي (نسبة التغير السنوي)"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -681,11 +725,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "9.52%",
         "totalRanked": "25",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "AI Talent Concentration",
           "ar": "تركيز المواهب في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -693,11 +740,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "0%",
         "totalRanked": "14",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "AI Job Postings (% of Total)",
           "ar": "إعلانات الوظائف في الذكاء الاصطناعي (كنسبة من الإجمالي)"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -705,11 +755,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "9.52%",
         "totalRanked": "25",
-        "group": "Economy",
         "level": "2",
         "indicatorName": {
           "en": "Net Migration Flow of AI Skills",
           "ar": "صافي تدفق هجرة المهارات في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Economy",
+          "ar": "الاقتصاد"
         }
       },
       {
@@ -718,11 +771,14 @@
         "indicatorValue": "2",
         "indicatorWeight": "46.15%",
         "totalRanked": "34",
-        "group": "Education",
         "level": "2",
         "indicatorName": {
           "en": "AI Study Programs in English",
           "ar": "برامج دراسة الذكاء الاصطناعي باللغة الإنجليزية"
+        },
+        "group": {
+          "en": "Education",
+          "ar": "التعليم"
         }
       },
       {
@@ -731,11 +787,14 @@
         "indicatorValue": "1.14%",
         "indicatorWeight": "53.85%",
         "totalRanked": "33",
-        "group": "Education",
         "level": "2",
         "indicatorName": {
           "en": "AI Study Programs in English Penetration",
           "ar": "انتشار برامج دراسة الذكاء الاصطناعي باللغة الإنجليزية"
+        },
+        "group": {
+          "en": "Education",
+          "ar": "التعليم"
         }
       },
       {
@@ -743,11 +802,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "100%",
         "totalRanked": "25",
-        "group": "Diversity",
         "level": "2",
         "indicatorName": {
           "en": "AI Talent Concentration Gender Equality Index",
           "ar": "مؤشر المساواة بين الجنسين في تركيز المواهب في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Diversity",
+          "ar": "التنوع"
         }
       },
       {
@@ -756,11 +818,14 @@
         "indicatorValue": "1",
         "indicatorWeight": "38.46%",
         "totalRanked": "36",
-        "group": "Policy & Governance",
         "level": "2",
         "indicatorName": {
           "en": "National AI Strategy Presence",
           "ar": "وجود استراتيجية وطنية للذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "Policy & Governance",
+          "ar": "السياسات والحوكمة"
         }
       },
       {
@@ -769,11 +834,14 @@
         "indicatorValue": "0",
         "indicatorWeight": "38.46%",
         "totalRanked": "36",
-        "group": "Policy & Governance",
         "level": "2",
         "indicatorName": {
           "en": "AI Legislation Passed",
           "ar": "تشريعات الذكاء الاصطناعي المعتمدة"
+        },
+        "group": {
+          "en": "Policy & Governance",
+          "ar": "السياسات والحوكمة"
         }
       },
       {
@@ -781,11 +849,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "23.08%",
         "totalRanked": "32",
-        "group": "Policy & Governance",
         "level": "2",
         "indicatorName": {
           "en": "AI Mentions in Legislative Proceedings",
           "ar": "ذكر الذكاء الاصطناعي في المداولات التشريعية"
+        },
+        "group": {
+          "en": "Policy & Governance",
+          "ar": "السياسات والحوكمة"
         }
       },
       {
@@ -794,11 +865,14 @@
         "indicatorValue": "4.48k",
         "indicatorWeight": "11.43%",
         "totalRanked": "36",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "AI Journal Publications",
           "ar": "منشورات المجلات العلمية في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -807,11 +881,14 @@
         "indicatorValue": "341",
         "indicatorWeight": "8.57%",
         "totalRanked": "36",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "AI Conference Publications",
           "ar": "منشورات المؤتمرات في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -820,11 +897,14 @@
         "indicatorValue": "25.83k",
         "indicatorWeight": "11.43%",
         "totalRanked": "36",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "AI Journal Citations",
           "ar": "الاقتباسات من المجلات العلمية في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -833,11 +913,14 @@
         "indicatorValue": "392",
         "indicatorWeight": "10%",
         "totalRanked": "36",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "AI Conference Citations",
           "ar": "الاقتباسات من مؤتمرات الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -846,11 +929,14 @@
         "indicatorValue": "0",
         "indicatorWeight": "11.43%",
         "totalRanked": "35",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "AI Patent Grants",
           "ar": "براءات الاختراع الممنوحة في الذكاء الاصطناعي"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -859,11 +945,14 @@
         "indicatorValue": "0",
         "indicatorWeight": "12.86%",
         "totalRanked": "36",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "Notable Machine Learning Models",
           "ar": "نماذج تعلم الآلة البارزة"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -871,11 +960,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "0%",
         "totalRanked": "12",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "Academia-Industry Model Production Concentration",
           "ar": "تركيز إنتاج النماذج بين القطاع الأكاديمي والصناعي"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -883,11 +975,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "4.29%",
         "totalRanked": "15",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "Foundation Models",
           "ar": "النماذج التأسيسية"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -895,11 +990,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "4.29%",
         "totalRanked": "15",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "Foundation Models Datasets",
           "ar": "مجموعات البيانات للنماذج التأسيسية"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -907,11 +1005,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "4.29%",
         "totalRanked": "15",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "Foundation Models Applications",
           "ar": "تطبيقات النماذج التأسيسية"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -919,11 +1020,14 @@
         "indicatorValue": "-",
         "indicatorWeight": "0%",
         "totalRanked": "13",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "Open Access Foundation Models",
           "ar": "النماذج التأسيسية مفتوحة المصدر"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -932,11 +1036,14 @@
         "indicatorValue": "4.28k",
         "indicatorWeight": "10%",
         "totalRanked": "36",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "AI GitHub Projects",
           "ar": "مشاريع الذكاء الاصطناعي على GitHub"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -945,11 +1052,14 @@
         "indicatorValue": "18.38k",
         "indicatorWeight": "11.43%",
         "totalRanked": "36",
-        "group": "R&D",
         "level": "2",
         "indicatorName": {
           "en": "AI GitHub Projects Stars",
           "ar": "النجوم لمشاريع الذكاء الاصطناعي على GitHub"
+        },
+        "group": {
+          "en": "R&D",
+          "ar": "البحث والتطوير"
         }
       },
       {
@@ -960,6 +1070,10 @@
         "indicatorName": {
           "en": "R&D",
           "ar": "البحث والتطوير"
+        },
+        "group": {
+          "en": null,
+          "ar": null
         }
       },
       {
@@ -970,6 +1084,10 @@
         "indicatorName": {
           "en": "Responsible AI",
           "ar": "الذكاء الاصطناعي المسؤول"
+        },
+        "group": {
+          "en": null,
+          "ar": null
         }
       },
       {
@@ -980,6 +1098,10 @@
         "indicatorName": {
           "en": "Economy",
           "ar": "الاقتصاد"
+        },
+        "group": {
+          "en": null,
+          "ar": null
         }
       },
       {
@@ -990,6 +1112,10 @@
         "indicatorName": {
           "en": "Education",
           "ar": "التعليم"
+        },
+        "group": {
+          "en": null,
+          "ar": null
         }
       },
       {
@@ -1000,6 +1126,10 @@
         "indicatorName": {
           "en": "Diversity",
           "ar": "التنوع"
+        },
+        "group": {
+          "en": null,
+          "ar": null
         }
       },
       {
@@ -1010,6 +1140,10 @@
         "indicatorName": {
           "en": "Policy & Governance",
           "ar": "السياسات والحوكمة"
+        },
+        "group": {
+          "en": null,
+          "ar": null
         }
       },
       {
@@ -1020,6 +1154,10 @@
         "indicatorName": {
           "en": "Public Opinion",
           "ar": "الرأي العام"
+        },
+        "group": {
+          "en": null,
+          "ar": null
         }
       },
       {
@@ -1030,6 +1168,10 @@
         "indicatorName": {
           "en": "Infrastructure",
           "ar": "البنية التحتية"
+        },
+        "group": {
+          "en": null,
+          "ar": null
         }
       }
     ]
