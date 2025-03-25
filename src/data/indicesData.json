@@ -5,7 +5,7 @@
     "organization": "International Research Center for AI Ethics and Governance",
     "isOwnedBySdaia": "TRUE",
     "establishment": "2025",
-    "link": "https://www.agile-index.ai/",
+    "link": "https://agile-index.ai/global-index-for-ai-safety",
     "logo": "GIAS.svg",
     "nextRelease": "2026-02",
     "name": {
@@ -27,7 +27,7 @@
     "categories": ["AI"],
     "ranks": [
       {
-        "rank": "11",
+        "rank": "12",
         "total": "40",
         "date": "2025-02"
       }
